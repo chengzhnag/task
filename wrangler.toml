@@ -1,0 +1,16 @@
+name = "task-worker"
+main = "./src/index.js"
+compatibility_date = "2024-03-17"
+
+[[d1_databases]]
+binding = "D1_DATABASE"
+database_name = "question"
+database_id = "baac57d0-866f-47a0-8cbb-a078a01d39c2"
+preview_database_id = "baac57d0-866f-47a0-8cbb-a078a01d39c2"
+
+[vars]
+USERNAME = "chengzhnag"
+PASSWORD = "just9527"
+
+[site]
+bucket = "./static/dist"
