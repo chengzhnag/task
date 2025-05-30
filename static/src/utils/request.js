@@ -1,5 +1,5 @@
 
-const DOMAIN = location.hostname === 'localhost' ? '' : '';
+const DOMAIN = 'https://task.952737.xyz';
 
 export function request(url, options = {}) {
   return new Promise((resolve, reject) => {
