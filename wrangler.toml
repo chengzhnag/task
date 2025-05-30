@@ -4,11 +4,20 @@ compatibility_date = "2024-03-17"
 
 [[d1_databases]]
 binding = "D1_DATABASE"
-database_name = "question"
-database_id = "baac57d0-866f-47a0-8cbb-a078a01d39c2"
-preview_database_id = "baac57d0-866f-47a0-8cbb-a078a01d39c2"
+database_name = "chengzhnag"
+database_id = "5c25cb91-5bff-4d81-96e4-04573ff380a8"
+preview_database_id = "5c25cb91-5bff-4d81-96e4-04573ff380a8"
+
+# 开启日志
+[observability]
+enabled = true
+
+# Cron 触发器
+[triggers]
+crons = [ "*/30 * * * *" ]
 
 [vars]
+RESEND_API_KEY = "re_B6TuKxCc_9vn3BEcqkzWV2SUnsWqNaHgT"
 USERNAME = "chengzhnag"
 PASSWORD = "just9527"
 

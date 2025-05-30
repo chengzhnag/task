@@ -38,7 +38,7 @@ export default defineConfig({
       external: ['react', 'react-dom', 'dayjs', 'antd'], // 将 React 和 Antd 外部化
       input: {
         main: path.resolve(__dirname, './index.html'),
-        admin: path.resolve(__dirname, './admin.html'),
+        // admin: path.resolve(__dirname, './admin.html'),
       },
       output: {
         globals: {
